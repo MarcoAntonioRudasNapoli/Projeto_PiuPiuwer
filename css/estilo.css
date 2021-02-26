@@ -1,0 +1,300 @@
+body {
+    background-color: #ededed;
+    font-family: 'Poppins', sans-serif;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    background-image: url(../img/background.svg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    overflow: none;
+    outline: none;
+    box-shadow: none;
+
+}
+
+.content {
+    max-width: 952px;
+    margin: 0 auto;
+    padding: 0 16px;;
+}
+
+#main-header {
+    height: 65px;
+    background: #f8f8f8;
+    box-shadow: 0 4px 4px rgba( 0, 0, 0, 0.25);
+}
+
+#main-header .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+#main-header .side {
+    display: flex;
+    align-items: center;
+}
+
+#main-header .side input {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 16px 0 36px;
+    background: #f8f8f8;
+    height: 40px;
+    width: 100%;
+
+    font-size: 14px;
+    color: #c4c4c4;
+
+    border: 2px solid #40916C;
+    border-radius: 20px;
+    background-image: url(../img/lupa.svg);
+    background-repeat: no-repeat;
+    background-position: 16px center;
+
+    outline: none;
+}
+
+#main-header .side img {
+    width: 45px;
+}
+
+#main-header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+#main-header nav ul li {
+    display: flex;
+    align-items: center;
+    margin-left: 32px;
+}
+
+#main-header nav ul li:first-child {
+    margin-left: 0;
+}
+
+.janela {
+    background-color: #ededed;
+    border: 4px solid #f8f8f8;
+}
+
+.showFirst {
+    display: flex;
+    padding: 26px 0 0 0;
+    justify-content: space-between;
+}
+
+.showFirst div h2 {
+    text-decoration: underline;
+    font-size: 36px;
+    color: #40916C;
+    font-weight: 700;
+}
+
+.sugestao {
+    display: flex;
+    align-items: center;
+}
+
+.sugestao h3 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.showFirst ul {
+    display: flex;
+}
+
+.showFirst ul li {
+    margin-left: 14px;
+}
+
+.post {
+    display: flex;
+    align-items: center;
+    margin: 32px 52px 20px 52px;
+    padding: 14px 35px;
+
+    border: 4px solid #f8f8f8f8;
+    border-radius: 16px;
+}
+
+.post textarea {
+    margin-left: 26px;
+    width: 340px;
+    height: 72px;
+
+    overflow: hidden;
+    resize: none;
+
+    font-size: 14px;
+    color: #484848;
+
+    background-color: transparent;
+    border: none;
+
+    outline: none;
+}
+
+.acoesPost {
+    display: flex;
+    align-items: center;
+}
+
+.acoesPost ul {
+    display: flex;
+    align-items: center;
+}
+
+.acoesPost ul li {
+    margin-left: 18px;
+}
+
+.acoesPost ul li button {
+    width: 120px;
+    height: 28px;
+
+    color: #f8f8f8;
+    font-size: 18px;;
+
+    border: none;
+    background-color: #CD2553;
+    border-radius: 14px;
+
+    outline: none;
+}
+
+.acoesPost ul li button:hover {
+    cursor: pointer;
+}
+
+.fixos{
+    background-color: #D8F3DC;
+}
+
+.displayTitle {
+    display: flex;
+    align-items: center;
+}
+
+.justContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.displayTitle img {
+    margin-top: -10px;
+}
+
+.displayTitle h3 {
+    font-size: 16px;
+    font-weight: 800;
+    color: #484848;
+    margin-right: 8px;
+}
+
+.displayTitle h6 {
+    font-size: 12px;
+    color: #c4c4c4;
+}
+
+.postagem {
+    border-bottom: 4px solid #f8f8f8;
+    background-color: #f8f8f8;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 16px;
+}
+
+.pictureProfile{
+    height: 78px;
+    width: 78px;
+    object-fit: cover;
+    object-position: center;
+    border: 2px solid #1B4332;
+    border-radius: 39px;
+    box-shadow: 4px 4px 4px 0px rgba( 0, 0, 0, 0.25);
+}
+.fixed{
+    margin-top: 10px;
+}
+.delete{
+    margin-top: 10px;
+}
+#namePost {
+    padding-left: 16px;
+    width: 100%;
+}
+
+#divNome {
+    padding-top: 16px;;
+}
+
+.textPost {
+    font-family: 'Poppins', sans-serif;
+    margin: 16px 0 0 0;
+    font-size: 14px;
+    word-break: break-all;
+}
+
+.displayIcons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 226px;
+}
+
+.displayActions {
+    display: flex;
+    align-items: center;
+}
+
+.displayActions h4 {
+    margin-left: 0px;
+    color: #c4c4c4;
+}
+
+.buttonLike {
+    border:none;
+    outline: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.textEdit{
+    overflow: hidden;
+    resize: none;
+    width: 75%;
+    font-size: 14px;
+    color: #484848;
+
+    background-color: #ededed;
+
+    outline: none;
+}
+
+.buttonEdit {
+    margin-top: 30px;
+    margin-left: 16px;
+}
+
+.fadeOut {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.invisible {
+    display: none;
+}
